@@ -10,4 +10,8 @@ describe("formatCount", () => {
   it("uses the plural for several items", () => {
     expect(formatCount(3)).toBe("3 items");
   });
+
+  it("uses the plural for zero items", () => {
+    expect(formatCount(0)).toBe("0 items");
+  });
 });
