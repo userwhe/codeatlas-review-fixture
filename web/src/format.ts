@@ -1,3 +1,3 @@
 export function formatCount(count: number): string {
-  return count <= 1 ? `${count} item` : `${count} items`;
+  return count === 1 ? "1 item" : `${count} items`;
 }
