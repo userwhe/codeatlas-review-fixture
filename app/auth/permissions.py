@@ -15,3 +15,5 @@ class User:
 def can_write(user: User, repository_id: int) -> bool:
     """Return True when the user is listed on the repository."""
     return repository_id in user.repository_ids
+
+# Revision 2.
